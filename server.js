@@ -131,7 +131,7 @@ app.get("/", (req, res) => {
   res.json({
     message: "歡迎使用 CWA 天氣預報 API",
     endpoints: {
-      tainan: "/api/weather/tainan",
+      kaohsiung: "/api/weather/kaohsiung",
       health: "/api/health",
     },
   });
